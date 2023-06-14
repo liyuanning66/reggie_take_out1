@@ -35,7 +35,7 @@ spring:
       sql:
         show: true #开启SQL显示，默认false
   main:
-    allow-bean-definition-overriding: true
+    allow-bean-definition-overriding: true #这个表示允许bean覆盖
   redis:
     database: 0
     host: localhost

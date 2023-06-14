@@ -27,7 +27,7 @@ public class ShoppingCartController {
      */
     @PostMapping("/add")
     public R<ShoppingCart> add(@RequestBody ShoppingCart shoppingCart){
-        log.info("1111{}",shoppingCart);
+        log.info("购物车{}",shoppingCart);
         //设置用户id
         Long Id = BaseContext.getCurrentId();
 
